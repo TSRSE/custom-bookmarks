@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-16">
       <div className="flex flex-row w-[100%] items-center justify-between gap-16">
-        <Button variant={"outline"}>That doesn't do anytginh yet</Button>
+        <Button variant={"outline"}>{"That doesn't do anytginh yet"}</Button>
         <ModeToggle/>
       </div>
       <div className="flex justify-center">
