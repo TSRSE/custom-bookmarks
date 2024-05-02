@@ -48,6 +48,20 @@ export default function Home() {
             link="https://tailwindcss.com/docs/installation" 
           />
 
+          <Bookmark 
+            title="Next.JS" 
+            description="React The library for web and native user interfaces. Next.js is built on the latest React features, including Server Components and Actions." 
+            img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
+            link="https://nextjs.org/" 
+          />
+
+          <Bookmark 
+            title="shadcn/ui" 
+            description="Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source." 
+            img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
+            link="https://ui.shadcn.com/" 
+          />
+
         </div>
       </div>
     </main>
