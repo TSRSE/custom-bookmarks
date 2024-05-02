@@ -12,7 +12,7 @@ export default function Home() {
         <ModeToggle/>
       </div>
       <div className="flex justify-center">
-        <div className="flex flex-row w-[100%] py-16 gap-8 flex-wrap ">
+        <div className="flex flex justify-center flex-col w-[100%] py-16 gap-8 flex-wrap">
           <div className="flex flex-row w-[100%] py-2 gap-8 flex-wrap ">
             <TypographyH1>Design</TypographyH1>
             <div className="flex flex-row w-[100%] py-2 gap-8 flex-wrap ">
@@ -49,18 +49,12 @@ export default function Home() {
           <div className="flex flex-row w-[100%] py-16 gap-8 flex-wrap ">
           <TypographyH1>Front-end</TypographyH1>
             <div className="flex flex-row w-[100%] py-2 gap-8 flex-wrap ">
-              <Bookmark 
-                title="Tailwind" 
-                description="Makes CSS easier [a bit]" 
-                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
-                link="https://tailwindcss.com/docs/installation" 
-              />
 
-              <Bookmark 
-                title="Next.JS" 
-                description="React The library for web and native user interfaces. Next.js is built on the latest React features, including Server Components and Actions." 
+            <Bookmark 
+                title="React.JS" 
+                description="The library for web and native user interfaces" 
                 img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
-                link="https://nextjs.org/" 
+                link="https://react.dev/" 
               />
 
             <Bookmark 
@@ -70,12 +64,22 @@ export default function Home() {
               link="https://nextjs.org/" 
             />
 
+              <Bookmark 
+                title="Tailwind" 
+                description="Makes CSS easier [a bit]" 
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
+                link="https://tailwindcss.com/docs/installation" 
+              />
+
             <Bookmark 
               title="shadcn/ui" 
               description="Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source." 
               img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
               link="https://ui.shadcn.com/" 
             />
+
+            
+
           </div>
         </div>
       </div>
