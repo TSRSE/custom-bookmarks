@@ -49,12 +49,19 @@ export default function Home() {
           <div className="flex flex-row w-[100%] py-16 gap-8 flex-wrap ">
           <TypographyH1>Front-end</TypographyH1>
             <div className="flex flex-row w-[100%] py-2 gap-8 flex-wrap ">
-            <Bookmark 
-              title="Tailwind" 
-              description="Makes CSS easier [a bit]" 
-              img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
-              link="https://tailwindcss.com/docs/installation" 
-            />
+              <Bookmark 
+                title="Tailwind" 
+                description="Makes CSS easier [a bit]" 
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
+                link="https://tailwindcss.com/docs/installation" 
+              />
+
+              <Bookmark 
+                title="Next.JS" 
+                description="React The library for web and native user interfaces. Next.js is built on the latest React features, including Server Components and Actions." 
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
+                link="https://nextjs.org/" 
+              />
 
             <Bookmark 
               title="Next.JS" 
@@ -69,9 +76,9 @@ export default function Home() {
               img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg" 
               link="https://ui.shadcn.com/" 
             />
-            </div>
           </div>
         </div>
+      </div>
       </div>
     </main>
   );
