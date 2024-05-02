@@ -1,8 +1,13 @@
-export function TypographyBlockquote() {
+import { ReactNode } from "react";
+
+type Props = {
+  children: ReactNode | ReactNode[]
+}
+
+export function TypographyBlockquote(props: Props) {
   return (
     <blockquote className="mt-6 border-l-2 pl-6 italic">
-      "After all," he said, "everyone enjoys a good joke, so it's only fair that
-      they should pay for the privilege."
+      {props.children}
     </blockquote>
   )
 }
