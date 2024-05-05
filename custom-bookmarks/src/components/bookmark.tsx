@@ -30,7 +30,7 @@ export default function Bookmark(props: BookmarkProps) {
       </CardContent> */}
       <CardFooter className="flex justify-between">
         <Link href={props.link} target="_blank">
-          <Button variant="outline" className="min-w-[100%]">
+          <Button variant="default" className="min-w-[100%]">
             Visit
           </Button>
         </Link>
