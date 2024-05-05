@@ -118,8 +118,15 @@ export default function Home() {
               />
 
               <Bookmark
+                title="Kafka"
+                description="Apache Kafka is an open-source distributed event streaming."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://kafka.apache.org"
+              />
+
+              <Bookmark
                 title="PostgreSQL"
-                description="PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+                description="PostgreSQL is a powerful, open source object-relational database system."
                 img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
                 link="https://www.postgresql.org"
               />
