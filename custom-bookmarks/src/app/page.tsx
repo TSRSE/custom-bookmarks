@@ -178,6 +178,79 @@ export default function Home() {
               />
             </div>
           </div>
+
+          <div className="flex w-[100%] flex-row flex-wrap gap-8 py-2 ">
+            <TypographyH1>Back-end</TypographyH1>
+            <div className="flex w-[100%] flex-row flex-wrap gap-8 py-2 ">
+              <Bookmark
+                title=".NET"
+                description=".NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://dotnet.microsoft.com/en-us/"
+              />
+
+              <Bookmark
+                title="Entity Framework"
+                description="Entity Framework is a modern object-relation mapper that lets you build a clean, portable, and high-level data access layer with .NET."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://learn.microsoft.com/en-us/ef/"
+              />
+
+              <Bookmark
+                title="Redis"
+                description="Redis is often referred to as a data structures server."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://github.com/redis/redis"
+              />
+
+              <Bookmark
+                title="NGINX"
+                description="Nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="http://nginx.org/en/"
+              />
+
+              <Bookmark
+                title="Min.io"
+                description="MinIO is a high-performance, S3 compatible object store."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://min.io/"
+              />
+
+              <Bookmark
+                title="Kafka"
+                description="Apache Kafka is an open-source distributed event streaming."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://kafka.apache.org"
+              />
+
+              <Bookmark
+                title="PostgreSQL"
+                description="PostgreSQL is a powerful, open source object-relational database system."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://www.postgresql.org"
+              />
+            </div>
+          </div>
+
+          <div className="flex w-[100%] flex-row flex-wrap gap-8 py-2 ">
+            <TypographyH1>DevOps</TypographyH1>
+            <div className="flex w-[100%] flex-row flex-wrap gap-8 py-2 ">
+              <Bookmark
+                title="Docker"
+                description="Containerize applications for consistency."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://www.docker.com/"
+              />
+
+              <Bookmark
+                title="Kubernetes"
+                description="Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications."
+                img="https://tailwindcss.ru/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
+                link="https://learn.microsoft.com/en-us/ef/"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>
